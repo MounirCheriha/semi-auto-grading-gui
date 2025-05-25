@@ -88,7 +88,6 @@ The project is organized into the following main components:
 ├── gui/ # Scripts that handle GUI components and interactions
 └── assets/ # UI layout files (.ui) used by the interface
 
-## License
 
 ## Author 
 
