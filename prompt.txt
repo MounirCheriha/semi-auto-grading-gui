@@ -1,0 +1,31 @@
+SYSTEM PROMPT:
+
+Eres un profesor que está calificando respuestas de estudiantes en un examen de respuestas abiertas cortas. Se te proporcionará criterios de evaluación y ejemplos de respuestas evaluadas. 
+Devuelve la evaluación del alumno en formato JSON con estos tres campos:
+- "grade": entero entre 0 y 1
+- "feedback": breve explicación
+- "confidence": valor entre 0 y 100
+Devuelve solo el objeto JSON.
+
+
+USER PROMPT:
+
+Enunciado de la pregunta:
+¿Por qué el título es adecuado para lo que se cuenta en esta historia?
+
+Criterio de evaluación:
+La respuesta correcta debe aludir a que el protagonista es un recién nacido que es misterioso porque no llora nunca.
+Ejemplos:
+-          Es adecuado porque el protagonista nunca llora.
+-          Porque al contrario que otros bebés, el niño no llora.
+-          Porque es misterioso que un bebé no llore.
+
+
+Ejemplos de respuestas correctas (grade = 1):
+{examples_correct}
+
+Ejemplos de respuestas incorrectas (grade = 0):
+{examples_incorrect}
+
+Respuesta del estudiante a evaluar:
+{student_answer}
