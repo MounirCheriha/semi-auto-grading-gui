@@ -78,15 +78,17 @@ Create a file called api_key.txt in the root directory and paste your OpenAI API
 
 The project is organized into the following main components:
 
+```
 📁 semi-auto-grading-gui/
-├── main.py # Entry point that launches the graphical user interface
-├── prompt.txt # Editable prompt used for guiding the LLM during grading
-├── api_key.txt # Stores your OpenAI API key. Warning: Do not upload this file to public repositories.
-├── requirements.txt # Python dependencies required to run the project
-├── outputs/ # Directory where corrected Excel files are saved
-├── core/ # Scripts related to grading logic and LLM integration
-├── gui/ # Scripts that handle GUI components and interactions
-└── assets/ # UI layout files (.ui) used by the interface
+├── main.py                 # Entry point that launches the graphical user interface
+├── prompt.txt              # Editable prompt used for guiding the LLM during grading
+├── api_key.txt             # Stores your OpenAI API key (⚠️ Do not upload to public repos)
+├── requirements.txt        # Python dependencies required to run the project
+├── outputs/                # Directory where corrected Excel files are saved
+├── core/                   # Scripts related to grading logic and LLM integration
+├── gui/                    # Scripts that handle GUI components and interactions
+└── assets/                 # UI layout files (.ui) used by the interface
+```
 
 
 ## Author 
