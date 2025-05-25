@@ -20,7 +20,7 @@ This project provides a graphical user interface (GUI) for semi-automatic gradin
 ## How to Use
 
 1. **Load the Excel File**  
-   Launch the application and select the Excel file to process. Optionally, enable text-cleaning options before loading.
+   Launch the application with main.py and select the Excel file to process. Optionally, enable text-cleaning options before loading.
 
 2. **Manual Grading**  
    In the main table, assign scores to a representative set of student responses, including both correct and incorrect examples. You can also pre-grade these in Excel before opening the interface.
